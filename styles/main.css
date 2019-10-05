@@ -1,0 +1,131 @@
+/*html, body {
+	width: 100%;
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}*/
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 2022px;
+    height: 130px;
+    
+}
+
+.procod {
+    display: flex;
+    align-items: center;
+    width: 577px;
+    height: 33px;
+    left: 405px;
+    top: 34px;
+    font-family: Gotham Pro;
+    font-size: 24px;
+    line-height: 39px;
+    
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 1011px;
+    height: 130px;
+
+}
+
+.services {
+    width: 157px;
+    height: 19px;
+    font-family: Gotham Pro;
+    font-size: 14px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+}
+
+.aboutus {
+    width: 144px;
+    height: 19px;
+    font-family: Gotham Pro;
+    font-size: 14px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+}
+
+.technologies {
+    width: 166px;
+    height: 19px;
+    font-family: Gotham Pro;
+    font-size: 14px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+}
+
+.contacts {
+    width: 89px;
+    height: 19px;
+    left: 1281px;
+    top: 42px;
+    font-family: Gotham Pro;
+    font-size: 14px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+}
+
+.section1 {
+    position: relative;
+    width: 2022px;
+    height: 995px;
+    left: -28px;
+    top: -37px;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.85);
+backdrop-filter: blur(4px);
+}
+
+.crPRO {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.devCODE {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.layer2 {
+    position: absolute;
+    width: 1920px;
+    height: 957px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+
+}
+
+
+
