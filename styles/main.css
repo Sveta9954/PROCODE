@@ -100,20 +100,22 @@ header {
     height: 995px;
     left: -28px;
     top: -37px;
-    z-index: 2;
-    background: rgba(0, 0, 0, 0.85);
-backdrop-filter: blur(4px);
+    
+    background: #000000d9;
+    opacity: 0.75;
 }
 
 .crPRO {
     display: flex;
     flex-direction: row;
+    z-index: 2;
     
 }
 
 .devCODE {
     display: flex;
     flex-direction: row;
+    z-index: 2;
 }
 
 
@@ -124,8 +126,55 @@ backdrop-filter: blur(4px);
     left: 0px;
     top: 0px;
     z-index: 1;
+    opacity: 0.75;
+}
+
+
+.ourstudio {
+    width: 748px;
+    height: 54px;
+    left: 402px;
+    top: 1092px;
+    font-family: Gotham Pro;
+    font-size: 40px;
+    line-height: 66px;
+    display: flex;
+    align-items: center;
+    color: #333333;
 
 }
 
 
+.sixbadges {
+    display: flex;
+    flex-direction: row;
+}
 
+.threecolumns {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.contactbutton {
+    position: absolute;
+    width: 266px;
+    height: 59px;
+    left: 405px;
+    top: 603px;
+    background: #FED233;
+    border-radius: 7px;
+
+}
+
+.contactbutton2 {
+    position: absolute;
+    width: 266px;
+    height: 59px;
+    left: 405px;
+    top: 3076px;
+    background: #FED233;
+    border-radius: 7px;
+
+}
